@@ -59,3 +59,36 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+# OliveYoung2025 🫒💄
+
+올리브영(Olive Young) 로그인·상품·할인 관리 기능을 구현한  
+**Laravel 기반 웹 프로젝트**입니다.  
+(학교 수업 및 개인 학습용 프로젝트)
+
+## 📌 프로젝트 개요
+
+- 프레임워크: **Laravel 12**
+- 언어: PHP, Blade, JavaScript
+- DB: MySQL
+- 인증: 일반 로그인 / CAPTCHA / (카카오 로그인 연동 시도)
+- 관리자 기능 포함 (할인 관리, 상품 관리)
+
+## ✨ 주요 기능
+
+### 👤 사용자
+- 로그인 (CAPTCHA 적용)
+- 아이디 저장(LocalStorage)
+- 할인 상품 조회
+
+### 🛠 관리자
+- 상품 CRUD
+- 할인 CRUD
+- 할인 상태 자동 구분
+  - 예정 / 진행중 / 종료
+- 회사별 관리자 권한 분리 (미들웨어 적용)
+
+
+## 🔐 보안 / 인증
+- Laravel Session 기반 인증
+- Google reCAPTCHA 적용
+- Middleware를 통한 관리자 접근 제어
